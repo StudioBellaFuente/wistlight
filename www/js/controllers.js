@@ -2,9 +2,12 @@ angular.module('wistlight.controllers', [])
 
 .controller('MapCtrl', function MapCtrl($scope, $http) {
 
+	   var apiUrl = 'http://customers.dynamic-designer.com/wistlight/';
 	   //here's some contrived controller method to demo updating the property.
 	   $scope.getParking = function() {
-		   $http.jsonp('http://customers.dynamic-designer.com/wistlight/get/1620').
+		   var url = apiUrl + 'get/1620';
+		   
+		   $http.jsonp(url).
 		    success(function(data, status, headers, config) {
 		      // this callback will be called asynchronously
 		      // when the response is available
@@ -34,7 +37,7 @@ angular.module('wistlight.controllers', [])
            $scope.$apply();
            
 		   //send to server
-		   var url = 'http://customers.dynamic-designer.com/wistlight/set/'+lat+'/'+long+'/1620';
+		   var url = apiUrl + 'set/'+lat+'/'+long+'/1620';
            $http.jsonp(url).
 		    success(function(data, status, headers, config) {
 		    	
