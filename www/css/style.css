@@ -1,1 +1,7 @@
 /* Empty. Add your own CSS if you like */
+.scroll{
+  height:100% !important
+}
+#mapContainer { height: 100%; }
+#map { height: 80%; }
+#menu { height: 20%; }

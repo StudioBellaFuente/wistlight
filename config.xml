@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.wistlight753303" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>wistlight</name>
+<widget id="com.ionicframework.wistlight253848" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Wistlight</name>
   <description>
-        An Ionic Framework and Cordova project.
+        Where is Starlight? An ionic based app to catch your car!
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="edrush@posteo.de" href="https://github.com/EdRush">
+      Wolfram Eberius
     </author>
   <content src="index.html"/>
   <access origin="*"/>
